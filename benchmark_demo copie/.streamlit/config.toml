@@ -1,0 +1,16 @@
+# Thème officiel Streamlit (corrige la lisibilité : texte clair sur fond sombre).
+# Sans ce fichier, forcer le fond en CSS laisse Streamlit en mode clair → texte sombre
+# sur fond sombre = illisible. Ici on déclare un vrai thème « dark » institutionnel.
+[theme]
+base = "dark"
+primaryColor = "#28C0C7"            # cyan d'accent (stratégie, sliders, boutons)
+backgroundColor = "#0E1117"         # fond principal
+secondaryBackgroundColor = "#1B2130" # cartes / sidebar (un peu plus clair pour le contraste)
+textColor = "#F2F4F8"               # texte quasi-blanc : lisibilité maximale
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
