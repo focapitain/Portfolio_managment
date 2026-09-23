@@ -1,0 +1,18 @@
+# --- Caches Python ---
+__pycache__/
+*.py[cod]
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Environnements virtuels ---
+.venv/
+venv/
+env/
+env_*/
+
+# --- macOS ---
+.DS_Store
+
+# --- Sorties générées (reproductibles) ---
+results/
